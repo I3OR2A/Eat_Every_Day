@@ -56,9 +56,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="239" key="new project wizard" timestamp="1592234591445">
+    <state width="1255" height="295" key="GridCell.Tab.0.bottom" timestamp="1592235995399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="646" y="239" key="new project wizard/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592234591445" />
+    <state width="1255" height="295" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235995399" />
+    <state width="1255" height="295" key="GridCell.Tab.0.center" timestamp="1592235995399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1255" height="295" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235995399" />
+    <state width="1255" height="295" key="GridCell.Tab.0.left" timestamp="1592235995399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1255" height="295" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235995399" />
+    <state width="1255" height="295" key="GridCell.Tab.0.right" timestamp="1592235995399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1255" height="295" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235995399" />
+    <state x="249" y="176" key="SettingsEditor" timestamp="1592235729938">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="249" y="176" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235729938" />
+    <state x="646" y="239" key="new project wizard" timestamp="1592235368988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="646" y="239" key="new project wizard/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592235368988" />
   </component>
 </project>
