@@ -35,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-api/src/test/java/com/test" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -43,14 +43,14 @@
       <recent name="com.imooc.mapper.my.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service\impl" />
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-api\src\test\java\com\test" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service" />
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service\impl" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-mapper\src\main\java\com\imooc\mapper" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-pojo\src\main\java\com\imooc\pojo" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-mapper\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TransTest.myTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
       <module name="foodie-dev-api" />
@@ -64,8 +64,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TransTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransTest.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TransTest" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransTest.myTest" />
+        <item itemvalue="JUnit.TransTest" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -96,30 +129,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="977" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1592409335489">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="977" y="260" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592409335489" />
     <state x="913" y="299" key="FileChooserDialogImpl" timestamp="1592318097926">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="913" y="299" key="FileChooserDialogImpl/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592318097926" />
-    <state width="1385" height="295" key="GridCell.Tab.0.bottom" timestamp="1592408436659">
+    <state width="1385" height="428" key="GridCell.Tab.0.bottom" timestamp="1592430738852">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="295" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592408436659" />
-    <state width="1385" height="295" key="GridCell.Tab.0.center" timestamp="1592408436659">
+    <state width="1385" height="428" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592430738852" />
+    <state width="1385" height="428" key="GridCell.Tab.0.center" timestamp="1592430738852">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="295" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592408436659" />
-    <state width="1385" height="295" key="GridCell.Tab.0.left" timestamp="1592408436659">
+    <state width="1385" height="428" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592430738852" />
+    <state width="1385" height="428" key="GridCell.Tab.0.left" timestamp="1592430738851">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="295" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592408436659" />
-    <state width="1385" height="295" key="GridCell.Tab.0.right" timestamp="1592408436659">
+    <state width="1385" height="428" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592430738851" />
+    <state width="1385" height="428" key="GridCell.Tab.0.right" timestamp="1592430738852">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="295" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592408436659" />
+    <state width="1385" height="428" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592430738852" />
     <state x="249" y="176" key="SettingsEditor" timestamp="1592318127729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="249" y="176" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592318127729" />
+    <state x="896" y="288" width="582" height="524" key="StructurePopup" timestamp="1592408986492">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="896" y="288" width="582" height="524" key="StructurePopup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592408986492" />
     <state x="646" y="239" key="new project wizard" timestamp="1592317905216">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -1,2 +1,4 @@
+com\imooc\service\impl\TestTransServiceImpl.class
 com\imooc\service\impl\StuServiceImpl.class
+com\imooc\service\TestTransService.class
 com\imooc\service\StuService.class
