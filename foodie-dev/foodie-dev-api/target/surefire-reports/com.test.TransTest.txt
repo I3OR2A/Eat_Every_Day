@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.test.TransTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.756 s <<< FAILURE! - in com.test.TransTest
-myTest(com.test.TransTest)  Time elapsed: 1.111 s  <<< ERROR!
-org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in com.test.TransTest
+myTest(com.test.TransTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
 	at com.test.TransTest.myTest(TransTest.java:25)
 
