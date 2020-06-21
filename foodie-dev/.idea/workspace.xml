@@ -35,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -43,11 +43,11 @@
       <recent name="com.imooc.mapper.my.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\strategy" />
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\utils" />
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker" />
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\enums" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\utils" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-api\src\main\java\com\imooc\controller" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service\impl" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-service\src\main\java\com\imooc\service" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-api\src\test\java\com\test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
