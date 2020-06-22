@@ -35,7 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -43,17 +43,18 @@
       <recent name="com.imooc.mapper.my.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-api\src\main\java\com\imooc\config" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\strategy" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\utils" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker" />
       <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\enums" />
-      <recent name="D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
       <module name="foodie-dev-api" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8088" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.imooc.*" />
@@ -95,6 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JUnit.TransTest" />
+      <item itemvalue="JUnit.TransTest.myTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
@@ -129,6 +135,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="183" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592836251648">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="183" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592836251648" />
     <state x="977" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1592409335489">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -137,22 +147,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="913" y="299" key="FileChooserDialogImpl/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592318097926" />
-    <state width="1385" height="217" key="GridCell.Tab.0.bottom" timestamp="1592757093125">
+    <state width="1385" height="217" key="GridCell.Tab.0.bottom" timestamp="1592836288308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592757093125" />
-    <state width="1385" height="217" key="GridCell.Tab.0.center" timestamp="1592757093125">
+    <state width="1385" height="217" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592836288308" />
+    <state width="1385" height="217" key="GridCell.Tab.0.center" timestamp="1592836288308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592757093125" />
-    <state width="1385" height="217" key="GridCell.Tab.0.left" timestamp="1592757093125">
+    <state width="1385" height="217" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592836288308" />
+    <state width="1385" height="217" key="GridCell.Tab.0.left" timestamp="1592836288308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592757093125" />
-    <state width="1385" height="217" key="GridCell.Tab.0.right" timestamp="1592757093125">
+    <state width="1385" height="217" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592836288308" />
+    <state width="1385" height="217" key="GridCell.Tab.0.right" timestamp="1592836288308">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1385" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592757093125" />
+    <state width="1385" height="217" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1592836288308" />
     <state x="249" y="176" key="SettingsEditor" timestamp="1592318127729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
