@@ -15,6 +15,7 @@ D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\uti
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\strategy\DayPrefixRandomCodeStrategy.java
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\strategy\DefaultWorkerIdStrategy.java
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\InvalidSystemClock.java
+D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\com\imooc\enums\YesOrNo.java
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\utils\Serializes.java
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\DayCode.java
 D:\GitHub\Eat_Every_Day\foodie-dev\foodie-dev-common\src\main\java\org\n3r\idworker\utils\HttpReq.java
