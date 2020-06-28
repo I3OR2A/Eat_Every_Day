@@ -1,0 +1,161 @@
+24-Jun-2020 00:48:00.614 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+24-Jun-2020 00:48:00.620 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+24-Jun-2020 00:48:00.620 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+24-Jun-2020 00:48:00.620 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Jun-2020 00:48:00.620 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Jun-2020 00:48:00.620 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jun-2020 00:48:00.621 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_211\jre
+24-Jun-2020 00:48:00.621 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+24-Jun-2020 00:48:00.621 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jun-2020 00:48:00.621 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:00.621 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:00.622 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\conf\logging.properties
+24-Jun-2020 00:48:00.622 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jun-2020 00:48:00.622 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jun-2020 00:48:00.622 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jun-2020 00:48:00.622 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jun-2020 00:48:00.623 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:00.626 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:00.626 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\temp
+24-Jun-2020 00:48:00.626 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Bryan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bryan\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\Bryan\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\cudnn-9.2-windows10-x64-v7.2.1.38\cuda\bin;D:\dev\CGAL-4.11_build\bin;D:\Downloads\Tesseract-OCR;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git LFS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Software\node-v12.14.0-win-x86;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Bryan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bryan\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Jun-2020 00:48:00.934 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:01.085 嚴重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+24-Jun-2020 00:48:01.087 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:01.090 嚴重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8011]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use: bind
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:433)
+		at sun.nio.ch.Net.bind(Net.java:425)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+24-Jun-2020 00:48:01.092 資訊 [main] org.apache.catalina.startup.Catalina.load Server initialization in [694] milliseconds
+24-Jun-2020 00:48:01.114 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jun-2020 00:48:01.114 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+24-Jun-2020 00:48:01.121 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\docs]
+24-Jun-2020 00:48:01.376 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\docs] has finished in [255] ms
+24-Jun-2020 00:48:01.377 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\examples]
+24-Jun-2020 00:48:02.386 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\examples] has finished in [1,009] ms
+24-Jun-2020 00:48:02.387 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-shop]
+24-Jun-2020 00:48:02.405 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-shop] has finished in [18] ms
+24-Jun-2020 00:48:02.406 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\host-manager]
+24-Jun-2020 00:48:02.484 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\host-manager] has finished in [78] ms
+24-Jun-2020 00:48:02.485 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\manager]
+24-Jun-2020 00:48:02.517 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\manager] has finished in [32] ms
+24-Jun-2020 00:48:02.518 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\ROOT]
+24-Jun-2020 00:48:02.537 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\ROOT] has finished in [19] ms
+24-Jun-2020 00:48:02.542 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in [1,449] milliseconds
+24-Jun-2020 00:48:02.545 嚴重 [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: JVM_Bind
+		at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+		at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+24-Jun-2020 00:48:02.546 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:02.546 資訊 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:02.547 資訊 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Jun-2020 00:48:02.563 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:02.564 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:02.565 資訊 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:02.566 資訊 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:18.238 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.22
+24-Jun-2020 00:48:18.242 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 4 2019 14:20:06 UTC
+24-Jun-2020 00:48:18.242 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.22.0
+24-Jun-2020 00:48:18.242 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+24-Jun-2020 00:48:18.242 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_211\jre
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:18.243 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:18.244 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\conf\logging.properties
+24-Jun-2020 00:48:18.244 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Jun-2020 00:48:18.244 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Jun-2020 00:48:18.244 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Jun-2020 00:48:18.244 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Jun-2020 00:48:18.245 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:18.248 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22
+24-Jun-2020 00:48:18.248 資訊 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\temp
+24-Jun-2020 00:48:18.248 資訊 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Bryan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Bryan\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\Bryan\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\cudnn-9.2-windows10-x64-v7.2.1.38\cuda\bin;D:\dev\CGAL-4.11_build\bin;D:\Downloads\Tesseract-OCR;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Git LFS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Software\node-v12.14.0-win-x86;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\plugins\maven\lib\maven3\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Bryan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Bryan\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+24-Jun-2020 00:48:18.475 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:18.640 資訊 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:18.643 資訊 [main] org.apache.catalina.startup.Catalina.load Server initialization in [568] milliseconds
+24-Jun-2020 00:48:18.664 資訊 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Jun-2020 00:48:18.665 資訊 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.22]
+24-Jun-2020 00:48:18.671 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\docs]
+24-Jun-2020 00:48:18.879 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\docs] has finished in [208] ms
+24-Jun-2020 00:48:18.881 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\examples]
+24-Jun-2020 00:48:19.115 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\examples] has finished in [234] ms
+24-Jun-2020 00:48:19.115 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-shop]
+24-Jun-2020 00:48:19.135 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-shop] has finished in [20] ms
+24-Jun-2020 00:48:19.135 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\host-manager]
+24-Jun-2020 00:48:19.157 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\host-manager] has finished in [22] ms
+24-Jun-2020 00:48:19.158 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\manager]
+24-Jun-2020 00:48:19.184 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\manager] has finished in [26] ms
+24-Jun-2020 00:48:19.185 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\ROOT]
+24-Jun-2020 00:48:19.203 資訊 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\ROOT] has finished in [19] ms
+24-Jun-2020 00:48:19.207 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Jun-2020 00:48:19.215 資訊 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8011"]
+24-Jun-2020 00:48:19.217 資訊 [main] org.apache.catalina.startup.Catalina.start Server startup in [572] milliseconds
