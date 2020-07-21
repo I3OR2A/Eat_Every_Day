@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [21/Jul/2020:23:24:41 +0800] "GET /foodie-shop/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Jul/2020:23:24:41 +0800] "GET /foodie-shop/js/app.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Jul/2020:23:24:42 +0800] "GET /foodie-shop/img/foodie.ico HTTP/1.1" 200 4286
