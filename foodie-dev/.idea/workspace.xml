@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8e1ac1-0fce-4e45-9aac-8ebf57c43f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/NewItemsVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/SimpleItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/NewItemsVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/vo/SimpleItemVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryMapperCustom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapperCustom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/target/foodie-dev-mapper-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/foodie-dev-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/foodie-dev-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/foodie-dev-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-service/target/foodie-dev-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/target/foodie-dev-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.22/logs/localhost_access_log.2020-07-23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.22/logs/localhost_access_log.2020-07-23.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
