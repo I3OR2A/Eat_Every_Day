@@ -16,4 +16,5 @@ com\imooc\pojo\Stu.class
 com\imooc\pojo\vo\SubCategoryVO.class
 com\imooc\pojo\Users.class
 com\imooc\pojo\vo\SimpleItemVO.class
+com\imooc\pojo\vo\CommentLevelCountsVO.class
 com\imooc\pojo\Items.class

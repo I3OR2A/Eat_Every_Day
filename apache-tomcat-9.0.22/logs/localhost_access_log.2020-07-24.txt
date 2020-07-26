@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [24/Jul/2020:00:24:57 +0800] "GET /foodie-shop/item.html?itemId=cake-1004 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jul/2020:00:24:58 +0800] "GET /foodie-shop/img/foodie.ico HTTP/1.1" 200 4286
+0:0:0:0:0:0:0:1 - - [24/Jul/2020:00:25:59 +0800] "GET /foodie-shop/item.html?itemId=cake-1004 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jul/2020:00:26:00 +0800] "GET /foodie-shop/img/foodie.ico HTTP/1.1" 200 4286
+0:0:0:0:0:0:0:1 - - [24/Jul/2020:00:26:11 +0800] "GET /foodie-shop/item.html?itemId=cake-1001 HTTP/1.1" 200 26379

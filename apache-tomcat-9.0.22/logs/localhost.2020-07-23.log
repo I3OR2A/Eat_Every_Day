@@ -3,3 +3,6 @@
 23-Jul-2020 00:09:32.163 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 23-Jul-2020 00:09:32.163 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 23-Jul-2020 00:09:32.164 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1ce24091')
+23-Jul-2020 23:48:22.310 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Jul-2020 23:48:22.310 資訊 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Jul-2020 23:48:22.311 資訊 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1ce24091')
