@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c8e1ac1-0fce-4e45-9aac-8ebf57c43f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/ItemCommentVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapperCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/ItemServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

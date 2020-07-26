@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.imooc.mapper.ItemsMapperCustom" >
 
-  <select id="queryItemComments" parameterType="Map" resultType="">
+  <select id="queryItemComments" parameterType="Map" resultType="com.imooc.pojo.vo.ItemCommentVO">
     SELECT
     ic.comment_level as commentLevel,
     ic.content as content,
@@ -18,7 +18,7 @@
     ic.user_id = u.id
     WHERE
     ic.item_id = #{paramsMap.itemId}
-    <if test="">
+    <if test=" paramsMap.level != null and paramsMap.level != '' ">
       AND ic.comment_level = #{paramsMap.level}
     </if>
   </select>
