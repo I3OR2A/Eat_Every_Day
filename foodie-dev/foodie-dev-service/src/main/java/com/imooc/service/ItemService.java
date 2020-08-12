@@ -1,5 +1,6 @@
 package com.imooc.service;
 
+import com.imooc.enums.YesOrNo;
 import com.imooc.pojo.Items;
 import com.imooc.pojo.ItemsImg;
 import com.imooc.pojo.ItemsParam;
@@ -8,6 +9,8 @@ import com.imooc.pojo.vo.CommentLevelCountsVO;
 import com.imooc.pojo.vo.ItemCommentVO;
 import com.imooc.pojo.vo.ShopcartVO;
 import com.imooc.utils.PagedGridResult;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -85,4 +88,17 @@ public interface ItemService {
      */
     public List<ShopcartVO> queryItemsBySpecIds(String specIds);
 
+    /**
+     * 根据商品规格id获取规格对象的具体信息
+     * @param specId
+     * @return
+     */
+    public ItemsSpec queryItemSpecById(String specId);
+
+    /**
+     * 根据商品id获得商品图片主图url
+     * @param itemId
+     * @return
+     */
+    public String queryItemMainImgById(String itemId);
 }
