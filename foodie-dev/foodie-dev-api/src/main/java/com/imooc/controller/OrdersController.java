@@ -1,5 +1,6 @@
 package com.imooc.controller;
 
+import com.imooc.enums.PayMethod;
 import com.imooc.pojo.bo.SubmitOrderBO;
 import com.imooc.utils.IMOOCJSONResult;
 import io.swagger.annotations.Api;
@@ -24,6 +25,10 @@ public class OrdersController {
     public IMOOCJSONResult create(
             @RequestBody SubmitOrderBO submitOrderBO) {
 
+        if (submitOrderBO.getPayMethod() != PayMethod.WEIXIN.type
+                && submitOrderBO.getPayMethod() != PayMethod.ALIPAY.type ) {
+            return IMOOCJSONResult.errorMsg("支付方式不支持！");
+        }
         System.out.println(submitOrderBO.toString());
 
         // 1. 创建订单
