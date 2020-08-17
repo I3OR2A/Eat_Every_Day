@@ -3,6 +3,8 @@ package com.imooc.controller;
 import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.PayMethod;
 import com.imooc.pojo.bo.SubmitOrderBO;
+import com.imooc.pojo.vo.MerchantOrdersVO;
+import com.imooc.pojo.vo.OrderVO;
 import com.imooc.service.OrderService;
 import com.imooc.utils.IMOOCJSONResult;
 import io.swagger.annotations.Api;
@@ -41,7 +43,8 @@ public class OrdersController extends BaseController {
 //        System.out.println(submitOrderBO.toString());
 
         // 1. 创建订单
-        String orderId = orderService.createOrder(submitOrderBO);
+        OrderVO orderVO = orderService.createOrder(submitOrderBO);
+        String orderId = orderVO.getOrderId();
 
         // 2. 创建订单以后，移除购物车中已结算（已提交）的商品
         /**
@@ -54,6 +57,8 @@ public class OrdersController extends BaseController {
 //        CookieUtils.setCookie(request, response, FOODIE_SHOPCART, "", true);
 
         // 3. 向支付中心发送当前订单，用于保存支付中心的订单数据
+        MerchantOrdersVO merchantOrdersVO = orderVO.getMerchantOrdersVO();
+        merchantOrdersVO.setReturnUrl(payReturnUrl);
 
         return IMOOCJSONResult.ok(orderId);
     }
