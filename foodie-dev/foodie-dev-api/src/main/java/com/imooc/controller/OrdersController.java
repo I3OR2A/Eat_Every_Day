@@ -33,7 +33,9 @@ public class OrdersController extends BaseController {
     @ApiOperation(value = "用户下单", notes = "用户下单", httpMethod = "POST")
     @PostMapping("/create")
     public IMOOCJSONResult create(
-            @RequestBody SubmitOrderBO submitOrderBO) {
+            @RequestBody SubmitOrderBO submitOrderBO,
+            HttpServletRequest request,
+            HttpServletResponse response) {
 
         if (submitOrderBO.getPayMethod() != PayMethod.WEIXIN.type
                 && submitOrderBO.getPayMethod() != PayMethod.ALIPAY.type ) {
