@@ -1,0 +1,2 @@
+23-Aug-2020 23:38:25.782 資訊 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-center]
+23-Aug-2020 23:38:26.246 資訊 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\GitHub\Eat_Every_Day\apache-tomcat-9.0.22\webapps\foodie-center] has finished in [480] ms
