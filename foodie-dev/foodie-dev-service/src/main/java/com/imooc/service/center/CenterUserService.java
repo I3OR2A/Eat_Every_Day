@@ -11,4 +11,11 @@ public interface CenterUserService {
      * @return
      */
     public Users queryUserInfo(String userId);
+
+    /**
+     * 修改用户信息
+     * @param userId
+     * @param centerUserBO
+     */
+    public Users updateUserInfo(String userId, CenterUserBO centerUserBO);
 }

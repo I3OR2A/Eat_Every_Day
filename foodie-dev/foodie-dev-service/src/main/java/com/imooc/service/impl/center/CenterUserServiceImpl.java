@@ -30,4 +30,18 @@ public class CenterUserServiceImpl implements CenterUserService {
         user.setPassword(null);
         return user;
     }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public Users updateUserInfo(String userId, CenterUserBO centerUserBO) {
+
+        Users updateUser = new Users();
+        BeanUtils.copyProperties(centerUserBO, updateUser);
+        updateUser.setId(userId);
+        updateUser.setUpdatedTime(new Date());
+
+        usersMapper.updateByPrimaryKeySelective(updateUser);
+
+        return queryUserInfo(userId);
+    }
 }
