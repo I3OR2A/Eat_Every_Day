@@ -6,11 +6,15 @@ com\imooc\pojo\bo\AddressBO.class
 com\imooc\pojo\OrderItems.class
 com\imooc\pojo\vo\CategoryVO.class
 com\imooc\pojo\vo\NewItemsVO.class
+com\imooc\pojo\vo\OrderVO.class
 com\imooc\pojo\vo\SearchItemsVO.class
 com\imooc\pojo\Users.class
 com\imooc\pojo\vo\SimpleItemVO.class
 com\imooc\pojo\vo\CommentLevelCountsVO.class
+com\imooc\pojo\bo\center\CenterUserBO.class
+com\imooc\pojo\vo\MyOrdersVO.class
 com\imooc\pojo\bo\SubmitOrderBO.class
+com\imooc\pojo\vo\MySubOrderItemVO.class
 com\imooc\pojo\Orders.class
 com\imooc\pojo\ItemsSpec.class
 com\imooc\pojo\vo\ItemCommentVO.class
@@ -22,4 +26,5 @@ com\imooc\pojo\ItemsImg.class
 com\imooc\pojo\Category.class
 com\imooc\pojo\Stu.class
 com\imooc\pojo\vo\SubCategoryVO.class
+com\imooc\pojo\vo\MerchantOrdersVO.class
 com\imooc\pojo\Items.class
