@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3c8e1ac1-0fce-4e45-9aac-8ebf57c43f17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/bo/center/OrderItemsCommentBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsCommentsMapperCustom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/center/MyCommentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/center/MyCommentsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/center/MyCommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/center/MyCommentsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/center/MyCommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/center/MyCommentsServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +31,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Maven\.m2\repository" />
+        <option name="mavenHome" value="D:\Software\intellij-idea-community-portable-2020.2.1-43\app\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\Maven\.m2\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1dMUWy4SyaKHPVmifcMXeOhNOmS" />
@@ -41,7 +42,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -137,6 +137,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
