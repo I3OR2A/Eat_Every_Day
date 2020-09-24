@@ -1,6 +1,7 @@
 package com.imooc.service.impl.center;
 
 import com.imooc.enums.YesOrNo;
+import com.imooc.mapper.ItemsCommentsMapperCustom;
 import com.imooc.mapper.OrderItemsMapper;
 import com.imooc.mapper.OrderStatusMapper;
 import com.imooc.mapper.OrdersMapper;
@@ -31,6 +32,9 @@ public class MyCommentsServiceImpl implements MyCommentsService {
 
     @Autowired
     public OrderStatusMapper orderStatusMapper;
+
+    @Autowired
+    public ItemsCommentsMapperCustom itemsCommentsMapperCustom;
 
     @Autowired
     private Sid sid;
